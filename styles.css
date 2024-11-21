@@ -1,0 +1,422 @@
+/* Загальні стилі */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Шапка сайту */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+header .logo i {
+    margin-right: 10px;
+    color: #e63946;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #e63946;
+}
+
+/* Герой-секція */
+.hero {
+    background: url('sneakers-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background: #e63946;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.hero .btn:hover {
+    background: #d62828;
+}
+
+/* Продукти */
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 280px;
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.product .btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product .btn:hover {
+    background: #0056b3;
+}
+
+/* Підвал */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #e63946;
+    margin: 0 5px;
+    font-size: 1.2em;
+}
+
+footer a:hover {
+    color: #d62828;
+}
+
+.thank-you {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.thank-you h1 {
+    font-size: 2.5em;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.thank-you p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.thank-you .btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.thank-you .btn:hover {
+    background: #0056b3;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+/* Sneaker List */
+.sneaker-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.sneaker {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sneaker img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.sneaker .buy-button {
+    display: block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.sneaker .buy-button:hover {
+    background-color: #218838;
+}
+
+/* Sneaker Details */
+.sneaker-details {
+    text-align: center;
+    padding: 20px;
+}
+
+.sneaker-details img {
+    width: 300px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.sneaker-details .buy-button {
+    background-color: #007bff;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.sneaker-details .buy-button:hover {
+    background-color: #0056b3;
+}
+
+/* Стилі для модального вікна */
+.modal {
+    display: none; /* Приховано за замовчуванням */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Тінь позаду */
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto; /* Центрування */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Ширина модального вікна */
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+}
+
+.sneaker-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Відстань між картками */
+    padding: 20px;
+}
+
+.sneaker-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: calc(33% - 40px); /* Три картки в ряд */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.sneaker-card img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.sneaker-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sneaker-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.sneaker-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sneaker-card button:hover {
+    background-color: #0056b3;
+}
+
+
+.products {
+    display: grid; /* Використовуємо Grid Layout */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Картки автоматично вирівнюються */
+    gap: 20px; /* Відстань між картками */
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; /* Обмеження ширини контейнера */
+    box-sizing: border-box;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product h2, .product h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.product .btn,
+.product button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-decoration: none; /* Для кнопки-лінку */
+}
+
+.product .btn:hover,
+.product button:hover {
+    background: #0056b3;
+}
